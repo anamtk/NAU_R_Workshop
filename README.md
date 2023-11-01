@@ -36,6 +36,10 @@ Please be sure to complete these surveys before and after the workshop. It is ok
 
 Post-workshop survey (available after all workshops are complete)
 
+## Workshop Recordings
+
+Here is a link to the folder with past [workshop recordings](https://drive.google.com/drive/folders/14gsPWOuP0V8gp2P5ylW1On837pfYcNvS)
+
 ## Schedule
 
 ### Workshop 1: Why R?
@@ -48,9 +52,13 @@ In this workshop, we will walk through an overview of R and why it is so useful 
 
 In this workshop, we will get oriented to R and RStudio and how they work together. We will also talk about file and folder organization that will generally be helful for project management, but make it much easier to work with R programming on your computer. We will also quickly review why ecologists use R for data analysis.
 
+[Live coding script](live_coding/getting_started.R)
+
 ### Workshop 3: [Data Visualization with `ggplot2`](https://carpentries-incubator.github.io/R-ecology-lesson-alternative/visualizing-ggplot.html)
 
 In this workshop, we will learn how to visualize data in R and RStudio using a package called `ggplot2`
+
+[Live coding script](live_coding/data_viz.R)
 
 ### Workshop 4: [Exploring and Understanding Data](https://carpentries-incubator.github.io/R-ecology-lesson-alternative/how-r-thinks-about-data.html)
 
