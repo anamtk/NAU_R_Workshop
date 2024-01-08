@@ -64,13 +64,19 @@ In this workshop, we will learn how to visualize data in R and RStudio using a p
 
 In this workshop, we will dive a bit deeper into R and learn how R stores data and how different ways that R stores data can help ecologists working with R.
 
+[Live coding script](live_coding/exploring_data.R)
+
 ### Workshop 5: [Working with Data](https://carpentries-incubator.github.io/R-ecology-lesson-alternative/working-with-data.html)
 
 In this workshop, we will learn how to import data into R and make these data easier to use for analysis and visualization.
 
+[Live coding script](live_coding/working_with_data.R)
+
 ### Workshop 6: Working with Data, Part 2
 
 In this workshop session, participants will be working to import their own datasets into R. We will  process and visualize data together during the session and instructors will be available to troubleshoot issues with data in R.
+
+[Live coding script](live_coding/working_with_data2.R)
 
 ### Workshop 7: [Introduction to Statistics in R](https://anamtk.github.io/stats_workshop/Introduction_to_Statistics.html)
 
