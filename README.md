@@ -82,6 +82,8 @@ In this workshop session, participants will be working to import their own datas
 
 In this workshop, we will learn about how to run statistical tests in R. These will match statistical tests participants will already know how to do in the program JMP from earlier in the RaMP training. 
 
+[Live coding script](live_coding/statistics.R)
+
 ### Workshop 8: Wrap up
 
 In this workshop, we will wrap up with any final questions that participants have about using R.
