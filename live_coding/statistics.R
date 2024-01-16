@@ -72,13 +72,48 @@ oneway.test(body_mass_g ~ species,
             data = penguins)
 
 
+#another way to run a one-way ANOVA
 
+penguins_anova <- aov(body_mass_g ~ species,
+                      data = penguins)
 
+#look at the results of that ANOVA
+summary(penguins_anova)
 
+#Post hoc analyses to figure out which species of 
+#penguins are different sizes
 
+post_test <- glht(penguins_anova,
+                  linfct = mcp(species = "Tukey"))
 
+#look at the summary of the post hoc test
+summary(post_test)
 
+#plot the three species
+ggplot(data = penguins,
+       mapping = aes(x = species,
+                     y = body_mass_g)) +
+  geom_boxplot()
 
+#hypothesis: is there a relationship between flipper length
+#and body mass of penguins
+#null hypothesis: there is no relationship between flipper 
+#length and body mass
+#alterantive hypthesis: there is a relationship between flipper
+# length and body mass
 
+regression_mod <- lm(flipper_length_mm ~ body_mass_g,
+                     data = penguins)
+
+#look at the summary of the linear regression
+summary(regression_mod)
+
+#let's plot this linear regression
+ggplot(data = penguins,
+       mapping = aes(x = body_mass_g,
+                     y = flipper_length_mm)) +
+  geom_point() +
+  geom_smooth(method = "lm",
+              se = FALSE)
 
 

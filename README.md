@@ -34,7 +34,7 @@ Please be sure to complete these surveys before and after the workshop. It is ok
 
 [Pre-workshop survey](https://docs.google.com/forms/d/e/1FAIpQLSdISjgvSBMtKURdFY9ZQSSJb6Xaa0N-VctpKzmvd1WtkHaQ0g/viewform?usp=sf_link)
 
-Post-workshop survey (available after all workshops are complete)
+[Post-workshop survey](https://forms.gle/XY7Hd66sUmV5XsPi7)
 
 ## Workshop Recordings
 
@@ -88,6 +88,8 @@ In this workshop, we will learn about how to run statistical tests in R. These w
 
 In this workshop, we will wrap up with any final questions that participants have about using R.
 
+[Live coding script](live_coding/statistics.R)
+
 ## Setup
 
 Before the workshop, please make sure you have completed the following setup steps: 
@@ -127,6 +129,8 @@ This is a compilation of R-based resources including community support, using R,
 [More fun with FUNctions! by An Bui](https://an-bui.shinyapps.io/FUNctions-learnR/#section-about-and-credits)
 
 [Tidy Tuesday Workshop series by Heili Lowman](https://github.com/hlowman/TidyTuesday)
+
+[R Graph Gallery](https://r-graph-gallery.com/)
 
 ### Other R-based Tools
 
